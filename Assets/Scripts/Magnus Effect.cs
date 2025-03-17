@@ -26,7 +26,7 @@ public class MagnusEffect : MonoBehaviour
 
     void Kick()
     {
-        rb.velocity = velocity;
+        rb.linearVelocity = velocity;
         rb.angularVelocity = spin;
     }
 
