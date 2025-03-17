@@ -19,9 +19,10 @@ public class MagnusEffect : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Kick();
-
-            ApplyMagnusEffect();
         }
+
+
+        ApplyMagnusEffect();
     }
 
     void Kick()
